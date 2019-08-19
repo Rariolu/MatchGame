@@ -19,7 +19,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="EndScene.cpp" />
+    <ClCompile Include="icon.c" />
+    <ClCompile Include="MatchGameGame.cpp" />
+    <ClCompile Include="MatchGameScene.cpp" />
+    <ClCompile Include="MatchGameUtil.cpp" />
     <ClCompile Include="program.cpp" />
+    <ClCompile Include="Tile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constants.h" />
+    <ClInclude Include="EndScene.h" />
+    <ClInclude Include="MatchGameGame.h" />
+    <ClInclude Include="MatchGameScene.h" />
+    <ClInclude Include="MatchGameUtil.h" />
+    <ClInclude Include="Tile.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{94cf26c4-3b88-4143-a0a0-ce85ddbefdb6}</ProjectGuid>
